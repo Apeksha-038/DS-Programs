@@ -14,6 +14,7 @@ void insert(int val){
     }
 
     queue[++rear]= val;
+    printf("\nThe added value is: %d",val);
 
 }
 
@@ -56,7 +57,7 @@ int main(){
                 printf("\nEnter the element to add:  ");
                 scanf("%d", &n);
                 insert(n);
-                printf("\nThe added value is: %d",n);
+
                 break;
 
             case 2:
